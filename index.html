@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página - Módulo I - Primeiros Passos com HTML</title>
+    <style>
+        body {
+            font-family: sans-serif;
+        }
+
+        p {
+            font-size: 12px;
+        }
+
+        a {
+            font-size: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 style="text-align: center;">Módulo 1 - Primeiros Passos com HTML</h1>
+    <hr />
+
+    <h2 id="indice">Índice</h2>
+    <ul>
+        <li><a href="#">História dos computadores</a></li>
+        <li><a href="#">O que são <i>Clients</i>?</a></li>
+        <li><a href="#">O que são <i>Servers</i>?</a></li>
+        <li><a href="#">Como é uma estrutura básica de um HTML?</a></li>
+        <li><a href="#">Entendendo a diferença entre listas ordenadas e não ordenadas</a></li>
+        <li><a href="#">Links de referências</a></li>
+    </ul>
+    <br>
+    <hr><br>
+
+    <h3 font-family>História dos computadores</h3>
+    <p>
+        O primeiro computador <i>surgiu em 1944</i> conhecido como <i>MARK I</i>, sua operação era feita de forma
+        manual, projetado para realizar diferentes tipos de cálculos, o computador era tão grande, que ocupava uma sala
+        inteira.
+    </p>
+    <p>
+        Com o passar dos anos a tecnologia foi evoluindo, melhorando a capacidade dos computadores, reduzindo seu
+        tamanho, até chegar ao que conhecemos hoje, a 4º geração, mas
+        há quem diga que já estamos vivenciando a 5º geração.
+    </p>
+    <a href="#indice">Voltar</a>
+
+    <br>
+    <hr><br>
+
+    <h3>O que são <i>Clients</i>?</h3>
+    <p>
+        De acordo com a linguagem da internet, <i><strong>clientes</strong></i> são os dispositivos conectados a uma
+        rede, onde fazem uma solicitação e tem uma resposta.
+    </p>
+    <p>
+        Uma pessoa ao acessar o navegador <i>Web</i>, digita um site ou faz uma busca, a partir desse momento o
+        equipamento utilizado "<u>CLIENTE</u>", terá um retorno da pagina "<u>SERVER</u>".
+    </p>
+    <a href="#indice">Voltar</a>
+
+    <br>
+    <hr><br>
+
+    <h3>O que são <i>Servers</i>?</h3>
+    <p>
+        <u><i>Server’s</i></u> são responsáveis por receberem dados enviados pelos <mark>clientes</mark>, armazenam,
+        tratam e retornam com a resposta novamente para os <mark>clientes</mark>.
+    </p>
+    <a href="#indice">Voltar</a>
+
+    <br>
+    <hr><br>
+
+    <h3>Entendendo a diferença entre listas ordenadas e não ordenadas</h3>
+
+    <p>
+        Listas ordenas: como o próprio nome já diz, são listas que contem uma ordem e são enumeradas. Ex:
+    <ul>
+
+        <small>
+            <li>Item <sub>1</sub></li>
+            <li>Item <sub>2</sub></li>
+            <li>Item <sub>3</sub></li>
+        </small>
+    </ul>
+    </p>
+
+    <p>
+        Listas não ordenadas: são lista que não possuem uma ordem, mas no início de cada item possui uma marcação. Ex:
+    <ol>
+        <small>
+            <li>Item <sup>1</sup></li>
+            <li>Item <sup>2</sup></li>
+            <li>Item <sup>3</sup></li>
+        </small>
+    </ol>
+
+    </p>
+    <a href="#indice">Voltar</a>
+
+    <br>
+    <hr><br>
+
+    <h3>Links de referências</h3>
+    <ul>
+        <li><a href="http://dio.me" title="Clique aqui" target="_blank">http://dio.me</a></li>
+        <li><a href="https://www.w3schools.com/html/" title="Clique aqui" target="_blank">https://www.w3schools.com/</a>
+        </li>
+    </ul>
+    <h3>Estrutura base de um <i>HTML</i></h3>
+
+    <p>
+        <b><span>
+                <</span>!DOCTYPE html<span></span>><br></b> Tag repsonsável por dizer ao navegador que o arquivo é um
+        documento do tipo <abbr title="Hyper Text Markup Language">HTML</abbr>.<br><br>
+
+        <b><span>
+                <</span>html lang="pt-br"<span>></span><br></b> Tag que abrange todo o conteudo html, incia no top
+        código com html e termina com /html, desta forma marcando todo conteúdo. Dentro dessa mesma tag também está
+        informando em qual idioma deverá ser exibido.<br><br>
+
+        <b><span>
+                <</span>head<span>></span><br>
+            </span></b> Tag responsável pela cabeça do site, envolve o
+        titulo da página, estilos e outros arquivos.<br><br>
+
+        <b><span>
+                <</span>meta charset="UTF-8"<span>></span><br></b> Tag de configuração, aqui dizemos ao
+        navegador qual é o formato de codificação deve ser utilizado.<br><br>
+
+        <b><span>
+                </span>meta http-equiv="X-UA-Compatible" content="IE=edge"<span>></span><br></b> Tag de
+        compatibilidade com internet explorer<br><br>
+
+        <b><span>
+                <</span>meta name="viewport" content="width=device-width, initial-scale=1.0"<span>></span><br></b> Tag
+        responsavel por controlar a exibição do nosso site em dispositivos móveis.<br><br>
+
+        <b><span>
+                <</span>title> Document<span>
+                        <</span>/title<span>></span><br></b> Tag usada para informar o titlo do site, aparece na aba do
+        navegador.<br><br>
+
+        <b><span>
+                <</span>/head<span>></span><br></b> Tag de fechamento da cabeça do nosso html.<br><br>
+
+        <b><span>
+                << /span>body<span>></span><br></b> Tag que contem os códgigos escritos, os quais serão exibidos na
+        pagina de criação,podemos inserir: paragrafos, listas, imagens, mídia, etc.<br><br>
+
+        <b><span>
+                <</span>/body<span>></span><br></b> Tag de fechamento do corpo.<br><br>
+
+        <b><span>
+                <</span>/html<span>></span><br></b> Tag de fechamento do documento html.
+    </p>
+    <a href="#indice">Voltar</a>
+
+    <h3><b><i>Apresentando algumas Tag's aprendidas</i></b></h3>
+    <ul>
+        <li><b> 
+            <<span>a></span></b> - Tag utilizada para definir um hiperlink. (Ancora) </li>
+            <br>
+        <li><b>
+            <<span>abbr<span>></span></b> - Tag é utilizada para marcar uma sigla como HTML. ela adiciona
+            a descrição via propriedade <b>title</b>.</li>
+            <br>
+        <li><b>
+            <<span>b<span>></span></b> - Tag é utilizada para marcar um conteúdo como <b>negrito</b>.</li>
+            <br>
+        <li><b> 
+            <<span>blockquote<span>></span></b> - Tag é utilizada para criar citações de outra fonte no texto.</li>
+            <br>
+        <li><b>
+            <<span>strong<span>></span></b> - Tag semelhante ao <b>b</b> sua diferença está no
+            valor semântico, pois ela é responsável por dar uma forte ênfase no texto, fundamental para leitores de tela
+            e acessibilidade.</li>
+            <br>
+        <li><b> 
+            <<span>del<span>></span></b> - Tag utilizada na correção de textos: <del>exemplo</del>.</li>
+            <br>
+        <li><b>
+             <<span>em<span>></span></b> - Tag utilizada para dar uma enfase no conteudo, deixando o texto
+            em <em>itálico</em>.</li>
+            <br>
+        <li><b>
+             <<span>font<span>></span></b> - Tag foi usada no HTML 4 para especificar a face da fonte, o tamanho da fonte e a cor do texto. Essa tag foi descontinuada e não é suportada no HTML 5.</li>
+            <br>
+        <li><b>
+            <<span>i<span>></span></b> - Está tag é utilizada para deixar o conteudo em <i>italico</i>.</li>
+            <br>
+        <li><b> 
+            <<span>li<span>></span></b> - Define um item da lista</li>
+        <br>
+        <li><b>
+             <<span>mark<span>></span></b> - Tag utilizada para marcações no texto <mark>Exemplo</mark>.</li>
+            <br>
+        <li><b>
+            <</span>ol<span>></span></b> - Tag utilizada para criar uma lista ordernada.</li>
+                    <br>
+        <li><b>
+            <<span>p<span>></span></b> - Tag utilizada para escrever um paragrafo.</li>
+                    <br>
+        <li><b>
+            <<span>sub<span>></span></b> - Tag coloca um conteudo a baixo da linha, ex: h<b><sub>2</sub></b>o </li>
+                    <br>
+        <li><b>
+            <<span>small<span>></span></b> - Tag define um texto menor</li>
+                    <br>
+        <li><b>
+            <<span>sup<span>></span></b> - Tag coloca um conteudo acima da linha, ex: 2<sup>2</sup></li>
+        <br>
+        <li><b>
+            <<span>u<span>></span></b> - Tag sublinha um texto <u>underline</u></li>
+                    <br>
+        <li><b>
+            <</span>ul<span>></span></b> - Tag utilizada para criar uma lista não ordenada.</li>
+    </ul>
+
+    <a href="#indice">Voltar</a>
+
+    <h3>Referência</h3>
+    <p>
+        <a href="https:w3schools.com" title="Clique aqui" target="_blank">W3Schools</a>
+    </p>
+    <br>
+    <a href="#indice">Voltar ao indice</a>
+</body>
+
+</html>
