@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiro Projeto</title>
+    <style>
+        del {
+            background-color: red;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <h1 style="text-align: center;"><strong><i><mark><abbr title="Cascading Style Sheets">Filmes</abbr></mark></i></strong></h1> <img src="https://cdn.xxl.thumbs.canstockphoto.com.br/pipoca-filme-3d-c%C3%A3o-%C3%B3culos-banco-de-fotos_csp12290032.jpg" alt="">
+    <br>
+    <hr>
+
+
+    <h2><u>Ação</u></h2>
+    <p><sup>3</sup> Filmes de ação:</p>
+    <ol>
+        <li>Vingança Fatal</li>
+        <li>Black Site</li>
+        <li><small><i>Trem-Bala</i></small></li>
+    </ol>
+
+    <br>
+    <hr>
+
+    <h3><u>Ficção cientifica</u></h3>
+    <p><sup>3</sup> Filmes de ficção cientifica:</p>
+    <ol>
+        <li>Rubikon - Ponto Sem Retorno</li>
+        <li><small><i>Jurassic World: Domínio</i></small></li>
+        <li>Moonfall - Ameaça Lunar</li>
+    </ol>
+
+    <br>
+    <hr>
+
+    <h4><u>Comédia</u></h4>
+    <p><sub>3</sub> Filmes de comédia:</p>
+
+    <ul>
+        <li><small><i>Minions 2: A Origem de Gru</i></small></li>
+        <li>O Touro Ferdinando</li>
+        <li>Um Espião Animal </li>
+    </ul>
+
+    <br>
+    <hr>
+
+    <h5><u>Romance</u></h5>
+    <p><sub>3</sub> Filmes de romance:</p>
+
+    <ul>
+        <li><small><i>Amor de Redenção</i></small></li>
+        <li>After - Depois do Desencontro</li>
+        <li>Case Comigo</li>
+    </ul>
+
+    <br>
+    <hr>
+
+    <h6><u>Drama</u></h6>
+    <p><sub>3</sub> Filmes de drama:</p>
+
+    <ul>
+        <li>O Contador de Cartas</li>
+        <li><small><i>Águas Profundas</i></small></li>
+        <li>Harriet</li>
+    </ul>
+
+    <blockquote> Abaixo elencaremos alguns filmes que menos nos chamou a atenção!</blockquote>
+
+    <ul><del>
+        <li><small><i>Trem-Bala</i></small></li>
+        <li><small><i>Jurassic World: Domínio</i></small></li>
+        <li><small><i>Minions 2: A Origem de Gru</i></small></li>
+        <li><small><i>Amor de Redenção</i></small></li>
+        <li><small><i>Águas Profundas</i></small></li>
+    </del>
+    </ul>
+    <h2> Gostou? Então cadastre seu e-mail / telefone para receber mais:</h2>
+    E-mail:<input type="text" >
+    Telefone:<input type="number" >
+<button>Enviar</button>
+
+ <p> Abaixo está o LINK da plataforma que está contribuindo com o nosso conhecimento, para criação da pagina. Clica e saíba mais...</p>
+
+<a href="https://www.dio.me/" title="Clica aqui" target="_blank">Dio.me</a>
+
+<p> De acordo com a w3schools, a tag "font" não é suportada pelo HTML5</p>
+<a href="https://www.w3schools.com/tags/tag_font.asp">w3schools.font</a>
+
+</body>
+
+</html>
